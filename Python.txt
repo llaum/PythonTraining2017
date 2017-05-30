@@ -1,0 +1,44 @@
+Python
+
+Formateur: Said Moustadrani IBRAHIM
+
+Windows: install anacoda 3.6 mieux que package python.org
+SublimeText Packages:
+ - Install Package Control (CTRL+SHIFT+P)
+ - Anaconda
+ - BracketHighlighter
+ - SideBarEnhancements
+ - SublimeLinter
+ - SublimeLinter-pylint
+
+Python 3: pas de caractère simple (char), unicode pris en charge
+
+Docstrings: commentaire sur plusieurs ligne à des endroits particuliers (debut de fonction, de fichier, ...)
+
+Tuple: tableau non typé immuable
+	entre () séparateur ,
+	singleton (a,) et vide ()
+	accès par index
+Liste:
+	entre [] séparateur ,
+	singleton [a] et vide []
+	ajout insertion suppression
+	acces par l'index
+Set:
+	éléments de type quelconqes
+	non ordonnés sans répétition
+	entre {} séparateur ,
+	{7,3,9,3,4,,9,7}={3,4,7,9}
+	singleton {a} et vide {}
+	fonction set()
+	| -> union
+	& -> intersection
+	< -> inclusion
+Dictionnaire
+	structure associative non ordonnée: key -> value
+	{k1: v1, k2: v2, k3: v3,...}
+	accès par clef
+	unicité des clefs: update valeur
+	'in' recherche dans les clefs
+	.keys() .values() .items()
+	
