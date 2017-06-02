@@ -19,6 +19,8 @@ def polynome_second_degre(a, b, c=0):
         return (0, {})
 
 
-print(polynome_second_degre(2, 4))
-print(polynome_second_degre(1, 2, 1))
 print(polynome_second_degre(1, 0, 1))
+print(polynome_second_degre(1, 1, 1))
+print(polynome_second_degre(1, 2, 1))
+print(polynome_second_degre(2, 4))
+print(polynome_second_degre(1, 4, 1))

@@ -42,7 +42,7 @@ for k in dicoSuffrages.keys():
 
 print(dicoPercent)
 
-for k in dicoPercent.keys():
+for k in sorted(dicoPercent.keys()):
     lmax = len(max(dicoPercent.keys(), key=len))
     strTemp = '{:<' + str(lmax) + '} ({:>5}%) : '
     print(strTemp.format(k, round(dicoPercent[k], 2)), "*" * int(dicoPercent[k] + 1))
